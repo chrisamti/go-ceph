@@ -306,10 +306,12 @@ const (
 	// FallocNoFlag means default option.
 	FallocNoFlag = FallocFlags(0)
 	// FallocFlKeepSize specifies that the file size will not be changed.
-	FallocFlKeepSize = FallocFlags(C.FALLOC_FL_KEEP_SIZE)
+	// FallocFlKeepSize = FallocFlags(C.FALLOC_FL_KEEP_SIZE)
+	FallocFlKeepSize = FallocFlags(0x01)
 	// FallocFlPunchHole specifies that the operation is to deallocate
 	// space and zero the byte range.
-	FallocFlPunchHole = FallocFlags(C.FALLOC_FL_PUNCH_HOLE)
+	// FallocFlPunchHole = FallocFlags(C.FALLOC_FL_PUNCH_HOLE)
+	FallocFlPunchHole = FallocFlags(0x02)
 )
 
 // Fallocate preallocates or releases disk space for the file for the
