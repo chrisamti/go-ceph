@@ -1,4 +1,4 @@
-module github.com/ceph/go-ceph
+module github.com/chrisamti/go-ceph
 
 go 1.12
 

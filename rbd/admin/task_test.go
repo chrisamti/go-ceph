@@ -8,10 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ceph/go-ceph/internal/commands"
-	"github.com/ceph/go-ceph/rbd"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/chrisamti/go-ceph/internal/commands"
+	"github.com/chrisamti/go-ceph/rbd"
 )
 
 var tr1 = `

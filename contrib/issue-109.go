@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ceph/go-ceph/rados"
+	"github.com/chrisamti/go-ceph/rados"
 )
 
 func main() {

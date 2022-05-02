@@ -1,7 +1,7 @@
 package manager
 
 import (
-	"github.com/ceph/go-ceph/internal/commands"
+	"github.com/chrisamti/go-ceph/internal/commands"
 )
 
 // EnableModule will enable the specified manager module.
